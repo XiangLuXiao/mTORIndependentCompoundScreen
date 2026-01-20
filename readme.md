@@ -3,6 +3,9 @@
 
 Screening workflow and results for identifying compounds that do not interfere with mTOR. The project combines ligand-based virtual screening on Deep Drug Discovery (DDD) with large-scale reverse docking against autophagy- pathway proteins, followed by ranking and selection of top candidates for experimental follow-up.
 
+## Workflow Overview
+![Screening pipeline](picture/screening%20pipelines.png)
+
 ## Repository Layout
 - `data/1_first_stage_compound.csv` — 1,745 candidates from DDD ligand-based screening with similarity scores and reference compounds.
 - `data/2_Autophagy_OR_Mitophagy.csv` — 1,023 autophagy/mitophagy-related proteins collected from GeneCards with UniProt IDs and relevance scores.
