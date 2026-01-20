@@ -1,7 +1,7 @@
 
 # mTOR-Independent Compound Screening
 
-Screening workflow and results for identifying TFEB nuclear translocation agonists that do not interfere with mTOR. The project combines ligand-based virtual screening on Deep Drug Discovery (DDD) with large-scale reverse docking against autophagy-lysosome pathway proteins, followed by ranking and selection of top candidates for experimental follow-up.
+Screening workflow and results for identifying compounds that do not interfere with mTOR. The project combines ligand-based virtual screening on Deep Drug Discovery (DDD) with large-scale reverse docking against autophagy- pathway proteins, followed by ranking and selection of top candidates for experimental follow-up.
 
 ## Repository Layout
 - `data/1_first_stage_compound.csv` — 1,745 candidates from DDD ligand-based screening with similarity scores and reference compounds.
